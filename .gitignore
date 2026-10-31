@@ -1,0 +1,130 @@
+# ==============================
+# Android Studio / IntelliJ
+# ==============================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ==============================
+# Gradle
+# ==============================
+
+.gradle/
+**/build/
+
+# ==============================
+# Kotlin generated files
+# ==============================
+
+.kotlin/
+
+# ==============================
+# Local configuration
+# ==============================
+
+local.properties
+
+# ==============================
+# Kotlin / Java generated files
+# ==============================
+
+*.class
+out/
+
+# ==============================
+# Android generated files
+# ==============================
+
+.externalNativeBuild/
+.cxx/
+captures/
+
+# ==============================
+# Android signing keys
+# NEVER upload signing keys
+# ==============================
+
+keystore/
+
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# ==============================
+# Secrets / credentials
+# ==============================
+
+.env
+.env.*
+secrets.properties
+secret.properties
+credentials.properties
+
+# Firebase / service account credentials
+# Keep this ignored unless the project intentionally
+# needs to version this file.
+google-services.json
+service-account*.json
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+
+# ==============================
+# Generated APK / AAB
+# ==============================
+
+*.apk
+*.aab
+app/debug/
+app/release/
+
+# ==============================
+# Generated APK metadata
+# ==============================
+
+output-metadata.json
+
+# ==============================
+# Personal data / local exports
+# ==============================
+
+*.backup
+*.bak
+personal-data/
+user-data/
+exports/
+backups/
+
+# ==============================
+# IDE deployment target files
+# ==============================
+
+deploymentTargetDropDown.xml
+
+# ==============================
+# OS generated files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Local project inspection files
+# ==============================
+
+directory-tree.txt
